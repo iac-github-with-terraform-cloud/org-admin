@@ -2,7 +2,7 @@
 terraform {
   backend "remote" {
     hostname     = "app.terraform.io"
-    organization = "terraform-cloud-iac-github"
+    organization = "tc-iac-github"
     workspaces {
       name = "github-org-management-admin-TC"
     }
